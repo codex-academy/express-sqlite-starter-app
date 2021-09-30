@@ -1,15 +1,20 @@
-<h1>Counter Index</h1>
 
+<script>
+    function confirmDelete(e) {
+        if(!confirm("Reset the counter to 0?")) {
+            e.preventDefault();
+        }
+    }
+</script>
 
 <div>
-    Start here
-
-    <form action="/count" method="post">
+    <form action="/count" method="post" name="counterForm" >
         <div class="counter" >
             {{counter}}
         </div>    
-        <input type="submit" value="Press button to count">
-    
+        <input type="submit" name="action" value="Press button to count">
+        <input type="submit" name="action" value="Reset the counter" onclick="confirmDelete(event)"  >
+
     </form>
 
 </div>

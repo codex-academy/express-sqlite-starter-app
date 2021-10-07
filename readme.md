@@ -61,6 +61,32 @@ SQL command | comment | usage
 
 ## Using migrations
 
+Migrations is an easy way to run DDL scripts on your database.
+
 ## What is async/await?
+
+`async/await` is a cleaner syntax for handling asynchronous code.
+
+You can learn more about asynchronous code in JavaScript [here](https://exploringjs.com/impatient-js/ch_async-js.html#roadmap-async-functions).
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLVcT2txrixoVW_HZsO70gf695a1zfXNvf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**callback**
+
+```
+query(“select * from table”, function(err, result){});
+```
+**promises**
+
+```
+query(“select * from table”).then(function(result){});
+```
+
+**async/await**
+
+```
+const result = await query(“select * from table”);
+```
 
 

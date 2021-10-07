@@ -69,8 +69,7 @@ Migrations is an easy way to run DDL scripts on your database.
 
 You can learn more about asynchronous code in JavaScript [here](https://exploringjs.com/impatient-js/ch_async-js.html#roadmap-async-functions).
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLVcT2txrixoVW_HZsO70gf695a1zfXNvf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Learn more about async/await & promises here: https://www.youtube.com/embed/videoseries?list=PLVcT2txrixoVW_HZsO70gf695a1zfXNvf
 
 **callback**
 

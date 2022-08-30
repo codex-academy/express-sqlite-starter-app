@@ -50,7 +50,7 @@ open({
 
 ## SQL from JavaScript
 
-The SQLite module has a few different methids
+The SQLite module has a few different methods
 
 SQL command | comment | usage
 ------------|-------------|---------
